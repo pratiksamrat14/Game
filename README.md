@@ -1,4 +1,5 @@
-Description
+#Description
+
 Intuition is a game implemented using the artificial intelligence AI algorithm Minimax with Alpha-beta pruning.
 
 At each turn, the player may choose to move any number of spaces up, right, down, left, or diagonally as long as the path is not blocked by a previously visited cell.
@@ -7,7 +8,8 @@ After the first player selects a cell to start, the second player may choose a s
 
 The AI computer player uses the Minimax algorithm. This allows the AI to take the current game board state and build a tree of all possible moves and next states that each player may take. The Minimax algorithm is then applied from the bottom of the tree, upwards, to determine the best move to make for the current turn. The AI always assumes that the player will make an optimal move, and bases its decision accordingly.
 
-Dependencies
+#Dependencies
+
 This project is made using React.js.
 
 Installing
