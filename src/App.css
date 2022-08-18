@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #b9e9fc;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 25px;
+  text-align: center;
+}
+.sub-title {
+  font-weight: 600;
+}
+.description {
+  font-size: 20px;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  line-height: 0;
+  border: 1px solid black;
+  transition: background-color 0.25s;
+}
+
+.cell.small {
+  width: 10px;
+  height: 10px;
+}
+
+.player {
+  margin: 22px 20px 20px 34px;
+  font-size: 50px;
+  transition: all 0.25s;
+}
+
+.player.small {
+  margin: 0;
+  font-size: 10px;
+}
+
+#graph {
+  min-height: 200px;
+}
+
+#graph .ml-1 {
+  margin-left: 20px !important;
+}
+
+#graph .ml-2 {
+  margin-left: 40px !important;
+}
+
+#graph .ml-3 {
+  margin-left: 60px !important;
+}
+
+#graph .ml-4 {
+  margin-left: 80px !important;
+}
+
+#graph .ml-5 {
+  margin-left: 100px !important;
+}
+
+.gamePlayOptions span {
+  margin-right: 12px;
+}
+
+.gamePlayOptions input[type="number"] {
+  width: 50px;
+}
+
+/*Toggle Switch*/
